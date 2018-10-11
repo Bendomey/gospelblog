@@ -1,0 +1,20 @@
+.one{
+  width: 100%;
+  position: relative;
+}
+.heading{
+  color: #fff;
+  font-weight: 300;
+  font-family: "cooper black";
+  display: flex;
+  justify-content: center;
+  margin-top: -2vh;
+}
+.submit{
+  padding: 2vh 3vw;
+}
+#map{
+  width: 100%;
+  height: 100%;
+  background: grey;
+}

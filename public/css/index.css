@@ -1,0 +1,150 @@
+body{
+
+}
+.tab1{
+  margin: 5px;
+  color: #000;
+}
+.topPane{
+  border-bottom: 1px solid #f3f3f3;
+  padding-top: 5px;
+  padding-bottom: -10px;
+}
+.col-md-4{
+  display: flex;
+  justify-content: flex-end;
+}
+.col-sm-10{
+  display: flex;
+  justify-content: flex-start;
+}
+.col-sm-2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.menu{
+  display: none;
+  width: 35px;
+  height: 5px;
+  background-color: #000;
+  margin: 2px 0;
+}
+#gosple {font-size: 55px;
+		 color: #ffbf00;
+		 font-weight: 50px;
+		 text-shadow: .1em .1em .1em #ddd;
+		 font-family: "showcard gothic";
+}
+#entertainment {
+  font-family: "showcard gothic";
+  color: #3e3e3e;
+}
+#caption {
+  margin: -2px 0px 0px 10px;
+	font-family: cursive;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #43a276;
+  border-radius: 0px;
+  border-top: 3px solid #e58f29;
+  margin-top: 5px;
+}
+.navi{
+  color: #fff;
+  padding: 15px 15px;
+}
+.navi:hover{
+  background-color: #4b886c;
+  color: #fff;
+}
+.dropdown-menu{
+  background-color: #43a276;
+}
+
+
+/* smaller than the desktop */
+@media screen and (max-width: 991.98px) {
+	.topPane {
+		display: none;
+	}
+  .navigation{
+    display: none;
+  }
+
+  #gosple {font-size: 40px;
+  		 color: #ffbf00;
+  		 font-weight: 30px;
+  		 text-shadow: .1em .1em .1em #ddd;
+  		 font-family: "showcard gothic";
+  }
+  #entertainment {
+    font-size: 10px;
+    font-family: "showcard gothic";
+    color: #3e3e3e;
+  }
+  #caption {
+    font-size: 10px;
+    margin: -10px 0px 0px 10px;
+  	font-family: cursive;
+  }
+  .menu{
+    display: block;
+  }
+  #mySidenav{
+    display: none;
+  }
+}
+footer{
+  color: #fff;
+  background-color: #000;
+  margin-top: 5vh;
+}
+.footerHeaderProp{
+  border-left: 4px solid #43a276;
+  padding-left: 15px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.prop{
+  padding-bottom: -10px;
+}
+.link{
+  list-style: none;
+}
+.links{
+
+}
+.links:hover{
+  color: #fff;
+}
+.Copyright{
+  border-top: 2px solid #969697;
+  margin-top: 2vh;
+  padding-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.fix{
+  border: 1px solid transparent;
+  background: #43a276;
+  padding: 15px;
+  position: fixed;
+  z-index: 1;
+  top: 550px;
+  left: 1250px;
+}
+.fix:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.fix:focus{
+  text-decoration: none;
+}
+.fixed{
+  display: none;
+}

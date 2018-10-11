@@ -1,0 +1,88 @@
+body{
+
+}
+h1{
+  font-family: arial;
+}
+.line{
+  margin-top: 30px;
+  margin-left: -100px;
+}
+hr{
+  border: none;
+  height: 3px;
+  color: #333;
+  background-color: #333;
+}
+.one{
+  width: 100%;
+  position: relative;
+  margin-top: 5px;
+}
+.carousel-caption{
+  margin-top: 15vh; 
+}
+.hmm{
+  height: 100vh;
+}
+.caption{
+  position: absolute;
+  top: 0px;
+  /* background: linear-gradient(to bottom right, #ffffff 0%, #000000 95%); */
+  width: 100%;
+  height: 100%;
+  padding-top: 120px;
+}
+.description{
+  margin-left: 20px;
+}
+.des{
+  color: #fff;
+  font-weight: 600px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.des:hover{
+  color: #fff;
+}
+.img-responsive{
+  height: 33vh;
+}
+
+/* for the health tips */
+.health1{
+  background-color: #000;
+  height: 27vh;
+  width: 25vw;
+  margin-top: 40px;
+  color: #fff;
+  padding: 10px;
+  border-right: 2px solid #6f6f6f;
+}
+.nav1{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  border-bottom: 3px solid;
+  margin: 50px 0px 0px -70px;
+  padding-bottom: 2vh;
+}
+.well{
+  border-radius: 0px;
+  padding: 20px;
+  font-family: "Noto Serif";
+  font-weight: 400;
+  text-align: inherit;
+    color: #000000;
+}
+.sec1{
+  padding-bottom: 30px;
+  border-bottom: 1px dashed;
+}
+.comment{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3vh;
+}
